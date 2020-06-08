@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Roboto&display=swap" rel="stylesheet"> 
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="main-grid">
+        <header class="title">
+            <a href="index.html"><h1>Rock, Paper, Scissors?</h1></a>
+        </header>
+        <main>
+            <button id="player-rock-card" class="cards player-cards"><img src="assets/rock.svg"/></button>
+            <button id="player-paper-card" class="cards player-cards"><img src="assets/paper.svg"/></button>
+            <button id="player-scissors-card" class="cards player-cards"><img src="assets/scissors.svg"/></button>
+            <div id="player-score" class="info">
+                <h2>Player</h2>
+                <h2 id="player-score-number">0</h2>
+            </div>
+            <div id="how-to-area" class="info">
+                <h3 id="hta-1"> </h3>
+                <h3 id="hta-2">Choose above to play!</h3>
+            </div>
+            <div id="comp-score" class="info">
+                <h2>Computer</h2>
+                <h2 id="comp-score-number">0</h2>
+            </div>
+            <div id="comp-rock-card" class="cards comp-cards"><img src="assets/rock.svg"/></div>
+            <div id="comp-paper-card" class="cards comp-cards"><img src="assets/paper.svg"/></div>
+            <div id="comp-scissors-card" class="cards comp-cards"><img src="assets/scissors.svg"/></div>
+        </main>
+    </div>
+</body>
+</html>
